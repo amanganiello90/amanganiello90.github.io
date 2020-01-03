@@ -1,0 +1,16 @@
+<footer class="footer-main">
+
+    <div class="social-medias">
+
+        <a href="https://github.com/amanganiello90" target="_blank"><i class="fa fa-github-square hvr-bob"></i></a>
+        <a href="https://www.facebook.com/angelo.manganiello.16" target="_blank"><i class="fa fa-facebook-square hvr-bob"></i></a>
+        <a href="https://twitter.com/amanganiello90" target="_blank"><i class="fa fa-twitter-square hvr-bob"></i></a>
+        <a href="https://www.linkedin.com/in/angelomanganiello" target="_blank"><i class="fa fa-linkedin-square hvr-bob"></i></a>
+        
+    </div>
+
+    <div class="text-final">
+        <a href="mailto:angelo.mang@libero.it" target="_top">angelo.mang@libero.it</a>
+    </div>
+
+</footer>
