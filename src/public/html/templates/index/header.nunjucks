@@ -65,10 +65,11 @@
     </nav>
 
 
+<!--
     <div class="header-main-content">
 
         <div class="angelo-main-photo">
-            <img src="dist/images/angelo-main.jpg" alt="Angelo Manganiello">
+            <img src="dist/images/angelo-main.png" alt="Angelo Manganiello">
         </div>
 
         <div class="text-main">
@@ -79,6 +80,7 @@
         </div>
 
     </div>
+    -->
 
     <a href="#about" class="noselect">
         <div class="arrow-down-header">

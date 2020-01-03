@@ -125,13 +125,11 @@ gulp.task('files', function() {
 });
 
 //Default
-gulp.task('default', ['images', 'styles', 'scripts', 'fonts', 'nunjucks','files' ], function () {
-    console.log("starting default task");
-});
+gulp.task('default', gulp.series('images', 'styles', 'scripts', 'fonts', 'nunjucks','files'));
 
 
 //Deploy-Production
-gulp.task('deploy-production', ['default'], function () {
+gulp.task('deploy-production', gulp.series('default', function () {
 
     console.log("starting deploy-production task");
     return gulp.src([
@@ -141,10 +139,10 @@ gulp.task('deploy-production', ['default'], function () {
         { base : "public/" })
         .pipe(zip('deploy-production.zip'))
         .pipe(gulp.dest('public/'));
-});
+}));
 
 
-gulp.task('watch', ['default'], function () {
+gulp.task('watch', gulp.series('default', function () {
     console.log("starting watch task");
     require("./server.js");
     livereload.listen();
@@ -154,4 +152,4 @@ gulp.task('watch', ['default'], function () {
     gulp.watch(PAGES_PATH, ['nunjucks']);
     gulp.watch(NUNJUCKS_PATH, ['nunjucks']);
 
-});
+}));
