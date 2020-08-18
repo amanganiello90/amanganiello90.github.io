@@ -18,7 +18,7 @@
         </span>
 
         <p class="title">
-            Creative Dashboard personale
+            Creative Dashboard
         </p>
         <p class="text">
             Una dashboard con profilo utente ed altre funzionalità sia web che mobile. Contiene la parte backend per la gestione utente in un unico applicativo.
@@ -33,7 +33,7 @@
             </div>
             <div class="body">
                 <p>
-                    Per questo lavoro Full-Stack, è stata effettuata l'analisi dei requisiti da backend, modellazione del database e interfaccia utente. Le tecnologie utilizzate sono:
+                    Analisi dei requisiti di backend, modellazione del database e interfaccia utente. Le tecnologie utilizzate sono:
                 </p>
                 <ul>
                     <li>

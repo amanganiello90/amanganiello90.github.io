@@ -12,7 +12,7 @@
         </span>
 
         <p class="title">
-            Generatore JHipster in NodeJS
+            Generatore NodeJS
         </p>
         <p class="text">
            Un generatore di gestionali in NodeJS simile alla controparte java.
@@ -33,12 +33,12 @@
                 <ul>
                     <li>
                         <div class="number">1</div>
-                        <div class="task-item-text">L'interfaccia grafica è personalizzabile sia usando Angular che React</div>
+                        <div class="task-item-text">L'interfaccia grafica in Angular e React</div>
                         <div class="clear"></div>
                     </li>
                     <li>
                         <div class="number">2</div>
-                        <div class="task-item-text">Front-End sviluppata con HTML5+CSS3+JS</div>
+                        <div class="task-item-text">Front-End sviluppato con HTML5+CSS3+JS</div>
                         <div class="clear"></div>
                     </li>
                     <li>
