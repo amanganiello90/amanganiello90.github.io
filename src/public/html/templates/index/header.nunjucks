@@ -1,9 +1,11 @@
 <header class="header-main" id="home">
-
+   
+    <!-- </br> -->
     <div class="menu-icon-top">
         <i class="fa fa-th-large"></i>
     </div>
 
+    
     <nav role="navigation">
         <ul>
 
@@ -17,7 +19,7 @@
             <li>
                 <a href="#about">
                     <i class="fa fa-user-circle"></i>
-                    <span>About</span>
+                    <span>Chi sono</span>
                 </a>
             </li>
 
@@ -31,21 +33,21 @@
             <li>
                 <a href="#projects">
                     <i class="fa fa-tasks"></i>
-                    <span>Projects</span>
+                    <span>Progetti</span>
                 </a>
             </li>
 
             <li class="item-menu">
                 <a data-remodal-target="modalResumeDownload">
                     <i class="fa fa-cloud-download"></i>
-                    <span>Resume</span>
+                    <span>Curriculum</span>
                 </a>
             </li>
 
             <li>
                 <a href="#contact">
                     <i class="fa fa-phone-square"></i>
-                    <span>Contact</span>
+                    <span>Contatti</span>
                 </a>
             </li>
 
@@ -65,22 +67,25 @@
     </nav>
 
 
-<!--
-    <div class="header-main-content">
-
+    
+    <div class="header-main-content">  
+    <!-- 
+        </br>
+        </br>
+        </br>
         <div class="angelo-main-photo">
             <img src="dist/images/angelo-main.png" alt="Angelo Manganiello">
         </div>
-
+        </br>  -->
         <div class="text-main">
-            <p>Hello</p>
-            <p>I am</p>
-            <h1>Angelo Manganiello.</h1>
-            <div class="subtitle">Full-Stack</div>
+            <p>Ciao</p>
+            <p>Sono</p>
+            <h1>Angelo Manganiello</h1>
+            <div class="subtitle">Full-Stack Engineer</div>
         </div>
 
     </div>
-    -->
+
 
     <a href="#about" class="noselect">
         <div class="arrow-down-header">
@@ -92,11 +97,11 @@
 
 <div class="remodal" data-remodal-id="modalNoticeBlog">
     <button data-remodal-action="close" class="remodal-close"></button>
-    <h3>Hello :D</h3>
+    <h3>Ciao :D</h3>
     <p>
-        I'm building my blog, to share many interesting things about full-stack development.
+        Sto costruendo il mio blog, per condividere molte cose interessanti sullo sviluppo full-stack.
         <br><br>
-        As soon as it's ready i'll announce it on twitter.
+        Non appena sarà pronto lo annuncerò su twitter.
     </p>
     <br>
     <button data-remodal-action="confirm" class="remodal-confirm no-select">OK</button>
@@ -105,11 +110,11 @@
 
 <div class="remodal" data-remodal-id="modalResumeDownload">
     <button data-remodal-action="close" class="remodal-close"></button>
-    <h3>Resume</h3>
+    <h3>CV</h3>
     <p onclick="fechar()">
-        Choose a Resume version to download.
+        Scegli un curriculum da scaricare.
     </p>
     <br>
-    <a href="dist/files/cv-angelomanganiello-it.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-cancel no-select">Italian</button></a>
-    <a href="dist/files/cv-angelomanganiello-en.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-confirm no-select">English</button></a>
+    <a href="dist/files/cv-angelomanganiello-it.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-cancel no-select">Italiano</button></a>
+    <a href="dist/files/cv-angelomanganiello-en.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-confirm no-select">Inglese</button></a>
 </div>

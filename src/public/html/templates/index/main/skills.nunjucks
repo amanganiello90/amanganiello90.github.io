@@ -21,7 +21,7 @@
                     </div>
 
                     <p class="text">
-                        Create projects using my experience with (UX/UI), combined with a clean and organized code, made with HTML5, CSS3, jQuery and Js.                    </p>
+                        Creo progetti usando la mia esperienza con (UX / UI), combinato con un codice pulito e organizzato, realizzato con HTML5, CSS3, jQuery e Js.</p>
                 </div>
             </li>
 
@@ -30,26 +30,26 @@
                     <div class="img-group">
                         <img src="dist/images/gulp-icon.svg" title="Gulp" alt="Gulp">
                         <img src="dist/images/sass-icon.svg" title="Sass" alt="Sass">
-                        <img src="dist/images/angular-icon.svg" title="AngularJs" alt="AngularJs">
+                        <img src="dist/images/angular-icon.svg" title="Angular" alt="Angular">
                         <img src="dist/images/bootstrap-icon.svg" title="Bootstrap" alt="Bootstrap">
                     </div>
 
                     <p class="text">
-                        I use Sass, AngularJs and Gulp to create modularized code and accelerate development. Bootstrap has some useful components for responsive layouts.</p>
+                        Uso Sass, AngularJs e Gulp per creare codice modulare e accelerare lo sviluppo. Bootstrap ha alcuni componenti utili per layout reattivi.</p>
                 </div>
             </li>
 
             <li class="hvr-wobble-to-bottom-right">
                 <div class="content">
                     <div class="img-group">
-                        <img src="dist/images/c-icon.svg" title="C" alt="C">
+                        <img src="dist/images/c-icon.svg" title="C++" alt="C++">
                         <img src="dist/images/php-icon.svg" title="PHP" alt="PHP">
                         <img src="dist/images/nodejs-icon.svg" title="NodeJs" alt="NodeJs">
                         <img src="dist/images/java-icon.svg" title="Java" alt="Java">
                     </div>
 
                     <p class="text">
-                        To create back-end projects I study Algorithms and the specifics languages. I use to find out what language is better for each project.
+                        Per creare progetti di back-end studio algoritmi e linguaggi specifici. Lo scopo è scoprire quale linguaggio è migliore per ogni progetto.
                     </p>
                 </div>
             </li>
@@ -64,7 +64,7 @@
                     </div>
 
                     <p class="text">
-                        Configuring and data persistence with relational database (Mysql, SQL) and non relational (Mongo DB). To improve search performance I use Elastic Search.
+                       Configurazione e persistenza dei dati con database relazionali (Mysql, SQL) e non relazionali (Mongo DB). Per migliorare le prestazioni di ricerca utilizzo Elastic Search.
                     </p>
                 </div>
             </li>
@@ -79,7 +79,7 @@
                     </div>
 
                     <p class="text">
-                        Idealization of the projects (UX/UI) with PS and FW. Use the Git/Github to control the versions of projects. Configuration of the cloud environments (Bluemix, Aws and Azure).
+                        Ideazione di progetti (UX/UI) con PS e FW. Uso Git/Github per il versionamento dei progetti. Configurazione degli ambienti cloud (Bluemix, Aws e Azure).
                     </p>
                 </div>
             </li>
@@ -93,7 +93,7 @@
                     </div>
 
                     <p class="text">
-                        In addition developing hybrid applications with Ionic (+ Angular, HTML5, CSS3), I can develop native applications with Swift and Java (Android).
+                       Oltre a sviluppare applicazioni ibride con Ionic (Angular, HTML5, CSS3), posso sviluppare applicazioni native con Swift e Java (Android).
                     </p>
                 </div>
             </li>

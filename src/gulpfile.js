@@ -146,10 +146,10 @@ gulp.task('watch', gulp.series('default', function () {
     console.log("starting watch task");
     require("./server.js");
     livereload.listen();
-    gulp.watch(IMAGES_PATH, ['images']);
-    gulp.watch(SCRIPTS_PATH, ['scripts']);
-    gulp.watch(SCSS_PATH, ['styles']);
-    gulp.watch(PAGES_PATH, ['nunjucks']);
-    gulp.watch(NUNJUCKS_PATH, ['nunjucks']);
+    gulp.watch(IMAGES_PATH, gulp.series('images'));
+    gulp.watch(SCRIPTS_PATH, gulp.series('scripts'));
+    gulp.watch(SCSS_PATH, gulp.series('styles'));
+    gulp.watch(PAGES_PATH, gulp.series('nunjucks'));
+    gulp.watch(NUNJUCKS_PATH, gulp.series('nunjucks'));
 
 }));

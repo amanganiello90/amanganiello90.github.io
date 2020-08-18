@@ -2,31 +2,24 @@
     <div class="item hvr-bubble-float-top">
 
         <span class="lightgallery">
-            <a href="dist/images/projects/scytlid-0.jpg" class="cover">
-                <img src="dist/images/projects/scytlid-0.jpg" alt="Scytl ID - Cover - Click in the arrow 'next'">
+            <a href="dist/images/projects/nhipster-0.png" class="cover">
+                <img src="dist/images/projects/nhipster-0.png" alt="NHipster - Home Page - Clicca sulla freccia 'next' per l'immagine successiva">
             </a>
-            <a href="dist/images/projects/scytlid-1.jpg">
-                <img src="dist/images/projects/scytlid-1.jpg" alt="Scytl ID - Header style">
+            <a href="dist/images/projects/nhipster-1.png">
+                <img src="dist/images/projects/nhipster-1.png" alt="NHipster - Domande della Command line per generare l'applicazione">
             </a>
-            <a href="dist/images/projects/scytlid-2.jpg">
-                <img src="dist/images/projects/scytlid-2.jpg" alt="Scytl ID - Information text and icons">
-            </a>
-            <a href="dist/images/projects/scytlid-3.jpg">
-                <img src="dist/images/projects/scytlid-3.jpg" alt="Scytl ID - Contact section">
-            </a>
-            <a href="dist/images/projects/scytlid-4.jpg">
-                <img src="dist/images/projects/scytlid-4.jpg" alt="Scytl ID - Bitbucket commits">
-            </a>
+           
         </span>
 
         <p class="title">
-            Scytl ID - Landpage
+            Generatore JHipster in NodeJS
         </p>
         <p class="text">
-            Page in the land-page style, developed to promote a specific product. The colors used were supplied by the customer, since he had a logo.
+           Un generatore di gestionali in NodeJS simile alla controparte java.
+           E' un progetto di cui sono il responsabile e principale contributore.
         </p>
 
-        <i class="fa fa-bars open-project" title="View More"></i>
+        <i class="fa fa-bars open-project" title="Vedi dettaglio"></i>
 
         <div class="project-info">
             <div class="title">
@@ -35,27 +28,27 @@
             </div>
             <div class="body">
                 <p>
-                    All stages of the development were followed by the client, we moved to next after its approval.
+                    Tutte le fasi sono state eseguite utilizzando gli strumenti dati da GitHub.
                 </p>
                 <ul>
                     <li>
                         <div class="number">1</div>
-                        <div class="task-item-text">UI was created with Photoshop</div>
+                        <div class="task-item-text">L'interfaccia grafica è personalizzabile sia usando Angular che React</div>
                         <div class="clear"></div>
                     </li>
                     <li>
                         <div class="number">2</div>
-                        <div class="task-item-text">Front-End developed with HTML5+CSS3+JS</div>
+                        <div class="task-item-text">Front-End sviluppata con HTML5+CSS3+JS</div>
                         <div class="clear"></div>
                     </li>
                     <li>
                         <div class="number">3</div>
-                        <div class="task-item-text">GULP and SASS were used</div>
+                        <div class="task-item-text"><a href="https://github.com/jhipster/generator-jhipster-nodejs" target="_blank">GitHub</a> è il repository</div>
                         <div class="clear"></div>
                     </li>
-                    <li>
+                     <li>
                         <div class="number">4</div>
-                        <div class="task-item-text"><a href="https://bitbucket.org" target="_blank">Bitbucket</a> was used</div>
+                        <div class="task-item-text"><a href="https://www.jhipster.tech/" target="_blank">JHipster Home Page</a> è la pagina documentativa</div>
                         <div class="clear"></div>
                     </li>
                 </ul>

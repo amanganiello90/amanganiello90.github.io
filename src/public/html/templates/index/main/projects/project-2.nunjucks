@@ -2,44 +2,29 @@
     <div class="item hvr-bubble-float-top">
 
         <span class="lightgallery">
-            <a href="dist/images/projects/nbrsoft-0.jpg" class="cover">
-                <img src="dist/images/projects/nbrsoft-0.jpg" alt="NBRSoft - Cover - Click in the arrow 'next'">
+            <a href="dist/images/projects/dashboard-0.png" class="cover">
+                <img src="dist/images/projects/dashboard-0.png" alt="Creative Dashboard - Home Page - Clicca sulla freccia 'next' per l'immagine successiva">
             </a>
-            <a href="dist/images/projects/nbrsoft-1.jpg">
-                <img src="dist/images/projects/nbrsoft-1.jpg" alt="NBRSoft - Complete Projects page">
+            <a href="dist/images/projects/dashboard-1.png">
+                <img src="dist/images/projects/dashboard-1.png" alt="Creative Dashboard  - Profilo utente">
             </a>
-            <a href="dist/images/projects/nbrsoft-2.jpg">
-                <img src="dist/images/projects/nbrsoft-2.jpg" alt="NBRSoft - My Account">
+              <a href="dist/images/projects/dashboard-2.png">
+                <img src="dist/images/projects/dashboard-2.png" alt="Creative Dashboard  - Home su mobile">
             </a>
-            <a href="dist/images/projects/nbrsoft-3.jpg">
-                <img src="dist/images/projects/nbrsoft-3.jpg" alt="NBRSoft - Login">
-            </a>
-            <a href="dist/images/projects/nbrsoft-4.jpg">
-                <img src="dist/images/projects/nbrsoft-4.jpg" alt="NBRSoft - New User">
-            </a>
-            <a href="dist/images/projects/nbrsoft-5.jpg">
-                <img src="dist/images/projects/nbrsoft-5.jpg" alt="NBRSoft - Admin Area">
-            </a>
-            <a href="dist/images/projects/nbrsoft-6.jpg">
-                <img src="dist/images/projects/nbrsoft-6.jpg" alt="NBRSoft - Specific project open">
-            </a>
-            <a href="dist/images/projects/nbrsoft-7.jpg">
-                <img src="dist/images/projects/nbrsoft-7.jpg" alt="NBRSoft - Bitbucket commits">
-            </a>
-            <a href="dist/images/projects/nbrsoft-8.jpg">
-                <img src="dist/images/projects/nbrsoft-8.jpg" alt="NBRSoft - Bitbucket commits">
+              <a href="dist/images/projects/dashboard-3.png">
+                <img src="dist/images/projects/dashboard-3.png" alt="Creative Dashboard  - Profilo su mobile">
             </a>
 
         </span>
 
         <p class="title">
-            NBRSoft - Engineering
+            Creative Dashboard personale
         </p>
         <p class="text">
-            Software do all engineering calculations and generating a document following the norms of a particular law.
+            Una dashboard con profilo utente ed altre funzionalità sia web che mobile. Contiene la parte backend per la gestione utente in un unico applicativo.
         </p>
 
-        <i class="fa fa-bars open-project" title="View More"></i>
+        <i class="fa fa-bars open-project" title="Vedi dettaglio"></i>
 
         <div class="project-info">
             <div class="title">
@@ -48,27 +33,27 @@
             </div>
             <div class="body">
                 <p>
-                    For this work was Full-Stack, requirements survey, database modeling and UI. The technologies used were:
+                    Per questo lavoro Full-Stack, è stata effettuata l'analisi dei requisiti da backend, modellazione del database e interfaccia utente. Le tecnologie utilizzate sono:
                 </p>
                 <ul>
                     <li>
                         <div class="number">1</div>
-                        <div class="task-item-text">HTML5+CSS3+JS</div>
+                        <div class="task-item-text">HTML5+CSS3+Angular+Cordova</div>
                         <div class="clear"></div>
                     </li>
                     <li>
                         <div class="number">2</div>
-                        <div class="task-item-text">Back-End: NodeJs + Express</div>
+                        <div class="task-item-text">Back-End: Java Spring boot </div>
                         <div class="clear"></div>
                     </li>
                     <li>
                         <div class="number">3</div>
-                        <div class="task-item-text">Database: MongoDB</div>
+                        <div class="task-item-text">Database: MongoDB o SQL a scelta</div>
                         <div class="clear"></div>
                     </li>
-                    <li>
+                     <li>
                         <div class="number">4</div>
-                        <div class="task-item-text">SASS and GULP</div>
+                        <div class="task-item-text"><a href="https://github.com/amanganiello90/java-angular-web-app" target="_blank">GitHub</a> è il repository</div>
                         <div class="clear"></div>
                     </li>
                 </ul>
