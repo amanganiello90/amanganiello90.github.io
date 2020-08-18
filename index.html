@@ -1,7 +1,622 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Ciao</h1>
-<p>Questo sar� l'host del mio sito</p>
-</body>
+<!doctype html>
+
+<html lang="en">
+  
+	  <head>
+          <meta charset="utf-8">
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name=viewport>
+
+<link rel="icon" type="image/png" href="dist/images/favicon.png">
+
+<title>Angelo Manganiello - Full-Stack developer, Sofware Designer and Architect</title>
+<meta name="description" content="Ciao, Sono Angelo Manganiello" />
+<link rel="author" href="https://www.linkedin.com/in/angelomanganiello">
+
+<meta name="keywords" content="Angelo Manganiello, Full-Stack Developer, codes, Front-End, Back-End, UI, UX, UI/UX designer"/>
+
+<!-- Facebook and Twitter meta-tags -->
+<meta property="og:title" content="Angelo Manganiello - Full-Stack developer, UI/UX designer"/>
+<meta property="og:image" content="dist/images/angelo-media.jpg"/>
+<meta property="og:url" content="/"/>
+<meta property="og:site_name" content="Angelo Manganiello - Full-Stack developer, UI/UX designer"/>
+<meta property="og:description" content="Hello, I am Angelo Manganiello, I like the idea of creating a huge back-end and intuitive interfaces for users and that is reason I became a Full-Stack developer."/>
+
+<meta name="twitter:title" content="Angelo Manganiello - Full-Stack developer, UI/UX designer" />
+<meta name="twitter:image" content="https://twitter.com/amanganiello90/photo" />
+<meta name="twitter:url" content="/" />
+<meta name="twitter:card" content="Hello, I am Angelo Manganiello, I like the idea of creating a huge back-end and intuitive interfaces for users and that is reason I became a Full-Stack developer." />
+
+          <link rel="stylesheet" href="dist/css/styles.css">
+	  </head>
+
+	<body>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-91446105-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+
+
+        <header class="header-main" id="home">
+   
+    <!-- </br> -->
+    <div class="menu-icon-top">
+        <i class="fa fa-th-large"></i>
+    </div>
+
+    
+    <nav role="navigation">
+        <ul>
+
+            <li>
+                <a href="#home">
+                    <i class="fa fa-home"></i>
+                    <span>Home</span>
+                 </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    <i class="fa fa-user-circle"></i>
+                    <span>Chi sono</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#skills">
+                    <i class="fa fa-code"></i>
+                    <span>Skills</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects">
+                    <i class="fa fa-tasks"></i>
+                    <span>Progetti</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a data-remodal-target="modalResumeDownload">
+                    <i class="fa fa-cloud-download"></i>
+                    <span>Curriculum</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact">
+                    <i class="fa fa-phone-square"></i>
+                    <span>Contatti</span>
+                </a>
+            </li>
+
+            <li class="item-menu">
+                <a data-remodal-target="modalNoticeBlog">
+                    <i class="fa fa-quote-right"></i>
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+
+
+        <div class="menu-close">
+            <i class="fa fa-angle-up"></i>
+        </div>
+
+    </nav>
+
+
+    
+    <div class="header-main-content">  
+    <!-- 
+        </br>
+        </br>
+        </br>
+        <div class="angelo-main-photo">
+            <img src="dist/images/angelo-main.png" alt="Angelo Manganiello">
+        </div>
+        </br>  -->
+        <div class="text-main">
+            <p>Ciao</p>
+            <p>Sono</p>
+            <h1>Angelo Manganiello</h1>
+            <div class="subtitle">Full-Stack Engineer</div>
+        </div>
+
+    </div>
+
+
+    <a href="#about" class="noselect">
+        <div class="arrow-down-header">
+            <i class="fa fa-arrow-down"></i>
+        </div>
+    </a>
+
+</header>
+
+<div class="remodal" data-remodal-id="modalNoticeBlog">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3>Ciao :D</h3>
+    <p>
+        Sto costruendo il mio blog, per condividere molte cose interessanti sullo sviluppo full-stack.
+        <br><br>
+        Non appena sarà pronto lo annuncerò su twitter.
+    </p>
+    <br>
+    <button data-remodal-action="confirm" class="remodal-confirm no-select">OK</button>
+</div>
+
+
+<div class="remodal" data-remodal-id="modalResumeDownload">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h3>CV</h3>
+    <p onclick="fechar()">
+        Scegli un curriculum da scaricare.
+    </p>
+    <br>
+    <a href="dist/files/cv-angelomanganiello-it.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-cancel no-select">Italiano</button></a>
+    <a href="dist/files/cv-angelomanganiello-en.pdf" onclick="closeModalResumeDownload();" target="_blank"><button class="remodal-confirm no-select">Inglese</button></a>
+</div>
+
+        <main role="main">
+
+    <a href="#home" class="noselect">
+        <div class="go-top-page">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+    </a>
+
+    <hr class="hr-about" id="about">
+
+<section class="section-model-1">
+
+    <header>
+        <h2>Chi sono</h2>
+        <h3>Ingegnere con decennale esperienze su soluzioni mobile, web e desktop</h3>
+    </header>
+
+    <div class="container">
+
+        <div class="text">
+             <p>
+                Da 10 anni mi occupo di design ed implementazione di sistemi in java e mobile ibridi, portando avanti anche vari progetti open source.
+            </p>
+
+             <p>
+                Data la mia passione per la docenza e formazione, svolgo corsi base ed avanzati sulle tecnologie più diffuse (Java spring, Android, Angular, Ionic, C#)
+            </p>
+
+            <p>
+               Il mio bagaglio culturale comprende gli studi universitari con linguaggi matematici (MATLAB), fino ad arrivare ai moderni trend tecnologici (Angular, NodeJS, Ionic).
+            </p>
+
+            <p>
+                Comincio dal comprendere i requisiti del cliente, fino a progettare la soluzione che meglio si adatti come usabilità e performance.
+            </p>
+
+        </div>
+
+        <div class="image">
+            <img src="dist/images/angelo-logo.png" alt="Angelo Manganiello Logo">
+        </div>
+
+        <div class="user-data">
+            <div class="user-data-content">
+                <ul>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <I class="fa fa-user-circle"></i>
+                        </div>
+                        <div class="user-data-text">
+                            Angelo Manganiello
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <img src="dist/images/italy-icon.png" alt="Angelo Manganiello Italy Flag">
+                        </div>
+                        <div class="user-data-text">
+                            Italia
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <I class="fa fa-calendar"></i>
+                        </div>
+                        <div class="user-data-text">
+                            29 anni
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <img src="dist/images/icon-darth.png" alt="Angelo Manganiello Experience">
+                        </div>
+                        <div class="user-data-text">
+                            5 anni di sviluppo open source ed esperienza di design
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <I class="fa fa-music"></i>
+                        </div>
+                        <div class="user-data-text">
+                            Amo suonare il piano,
+                            adoro i video-games, leggere, cinema e lunghe passeggiate.
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="user-data-icon">
+                            <I class="fa fa-suitcase"></i>
+                        </div>
+                        <div class="user-data-text">
+                            Attualmente lavoro per <a href="https://www.emminformatica.it" target="_blank">EMM Informatica</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="user-data-content no-border">
+                <ul class="continuate">
+                    <li>
+                        <I class="fa fa-circle"></i>
+                    </li>
+                    <li>
+                        <I class="fa fa-circle"></i>
+                    </li>
+                    <li>
+                        <I class="fa fa-circle"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <hr class="hr-skills" id="skills" xmlns="http://www.w3.org/1999/html">
+
+<section class="section-model-2">
+
+    <header>
+        <h2>Skills</h2>
+    </header>
+
+    <div class="container">
+
+        <ul>
+
+            <li class="hvr-wobble-to-bottom-right">
+                <div class="content">
+                    <div class="img-group">
+                        <img src="dist/images/html5-icon.svg" title="HTML5" alt="HTML5">
+                        <img src="dist/images/css3-icon.svg" title="CSS3" alt="CSS3">
+                        <img src="dist/images/jquery-icon.svg" title="jQuery" alt="jQuery">
+                        <img src="dist/images/js-icon.svg" title="Javascript" alt="Javascript">
+
+                    </div>
+
+                    <p class="text">
+                        Creo progetti usando la mia esperienza con (UX / UI), combinato con un codice pulito e organizzato, realizzato con HTML5, CSS3, jQuery e Js.</p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-bottom-right">
+                <div class="content">
+                    <div class="img-group">
+                        <img src="dist/images/gulp-icon.svg" title="Gulp" alt="Gulp">
+                        <img src="dist/images/sass-icon.svg" title="Sass" alt="Sass">
+                        <img src="dist/images/angular-icon.svg" title="Angular" alt="Angular">
+                        <img src="dist/images/bootstrap-icon.svg" title="Bootstrap" alt="Bootstrap">
+                    </div>
+
+                    <p class="text">
+                        Uso Sass, AngularJs e Gulp per creare codice modulare e accelerare lo sviluppo. Bootstrap ha alcuni componenti utili per layout reattivi.</p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-bottom-right">
+                <div class="content">
+                    <div class="img-group">
+                        <img src="dist/images/c-icon.svg" title="C++" alt="C++">
+                        <img src="dist/images/php-icon.svg" title="PHP" alt="PHP">
+                        <img src="dist/images/nodejs-icon.svg" title="NodeJs" alt="NodeJs">
+                        <img src="dist/images/java-icon.svg" title="Java" alt="Java">
+                    </div>
+
+                    <p class="text">
+                        Per creare progetti di back-end studio algoritmi e linguaggi specifici. Lo scopo è scoprire quale linguaggio è migliore per ogni progetto.
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-top-right">
+                <div class="content">
+                    <div class="img-group">
+                        <img src="dist/images/mysql-icon.svg" title="Mysql" alt="Mysql">
+                        <img src="dist/images/elastic-search-icon.svg" title="Elastic Search" alt="Elastic Search">
+                        <img src="dist/images/sql-icon.svg" title="SQL" alt="SQL">
+                        <img src="dist/images/mongo-icon.svg" title="Mongo DB" alt="Mongo DB">
+                    </div>
+
+                    <p class="text">
+                       Configurazione e persistenza dei dati con database relazionali (Mysql, SQL) e non relazionali (Mongo DB). Per migliorare le prestazioni di ricerca utilizzo Elastic Search.
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-top-right">
+                <div class="content">
+                    <div class="img-group">
+                        <img src="dist/images/photoshop-icon.svg" title="Photoshop" alt="Photoshop">
+                        <img src="dist/images/fireworks-icon.svg" title="Fireworks" alt="Fireworks">
+                        <img src="dist/images/github-icon.svg" title="Github" alt="Github">
+                        <img src="dist/images/cloud-icon.svg" title="Cloud" alt="Cloud">
+                    </div>
+
+                    <p class="text">
+                        Ideazione di progetti (UX/UI) con PS e FW. Uso Git/Github per il versionamento dei progetti. Configurazione degli ambienti cloud (Bluemix, Aws e Azure).
+                    </p>
+                </div>
+            </li>
+
+            <li class="hvr-wobble-to-top-right">
+                <div class="content">
+                    <div class="img-group">
+                        <img src="dist/images/swift-icon.svg" title="Swift" alt="Swift">
+                        <img src="dist/images/android-icon.svg" title="Android" alt="Android">
+                        <img src="dist/images/ionic-icon.svg" title="Ionic" alt="Ionic">
+                    </div>
+
+                    <p class="text">
+                       Oltre a sviluppare applicazioni ibride con Ionic (Angular, HTML5, CSS3), posso sviluppare applicazioni native con Swift e Java (Android).
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</section>
+
+    <hr class="hr-projects" id="projects">
+
+<section class="section-model-3">
+    <header>
+        <h2>Ultimi progetti</h2>
+        <h3>Per vedere alcuni dei miei lavori o per qualsiasi domanda, contattatemi</h3>
+    </header>
+
+    <div class="container">
+
+        <ul class="gallery">
+
+            <li class="project-item">
+    <div class="item hvr-bubble-float-top">
+
+        <span class="lightgallery">
+            <a href="dist/images/projects/nhipster-0.png" class="cover">
+                <img src="dist/images/projects/nhipster-0.png" alt="NHipster - Home Page - Clicca sulla freccia 'next' per l'immagine successiva">
+            </a>
+            <a href="dist/images/projects/nhipster-1.png">
+                <img src="dist/images/projects/nhipster-1.png" alt="NHipster - Domande della Command line per generare l'applicazione">
+            </a>
+           
+        </span>
+
+        <p class="title">
+            Generatore JHipster in NodeJS
+        </p>
+        <p class="text">
+           Un generatore di gestionali in NodeJS simile alla controparte java.
+           E' un progetto di cui sono il responsabile e principale contributore.
+        </p>
+
+        <i class="fa fa-bars open-project" title="Vedi dettaglio"></i>
+
+        <div class="project-info">
+            <div class="title">
+                <i class="fa fa-tasks title-icon"></i> Tasks
+                <i class="fa fa-close project-info-close"></i>
+            </div>
+            <div class="body">
+                <p>
+                    Tutte le fasi sono state eseguite utilizzando gli strumenti dati da GitHub.
+                </p>
+                <ul>
+                    <li>
+                        <div class="number">1</div>
+                        <div class="task-item-text">L'interfaccia grafica è personalizzabile sia usando Angular che React</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">2</div>
+                        <div class="task-item-text">Front-End sviluppata con HTML5+CSS3+JS</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">3</div>
+                        <div class="task-item-text"><a href="https://github.com/jhipster/generator-jhipster-nodejs" target="_blank">GitHub</a> è il repository</div>
+                        <div class="clear"></div>
+                    </li>
+                     <li>
+                        <div class="number">4</div>
+                        <div class="task-item-text"><a href="https://www.jhipster.tech/" target="_blank">JHipster Home Page</a> è la pagina documentativa</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li> 
+
+            <li class="project-item">
+    <div class="item hvr-bubble-float-top">
+
+        <span class="lightgallery">
+            <a href="dist/images/projects/dashboard-0.png" class="cover">
+                <img src="dist/images/projects/dashboard-0.png" alt="Creative Dashboard - Home Page - Clicca sulla freccia 'next' per l'immagine successiva">
+            </a>
+            <a href="dist/images/projects/dashboard-1.png">
+                <img src="dist/images/projects/dashboard-1.png" alt="Creative Dashboard  - Profilo utente">
+            </a>
+              <a href="dist/images/projects/dashboard-2.png">
+                <img src="dist/images/projects/dashboard-2.png" alt="Creative Dashboard  - Home su mobile">
+            </a>
+              <a href="dist/images/projects/dashboard-3.png">
+                <img src="dist/images/projects/dashboard-3.png" alt="Creative Dashboard  - Profilo su mobile">
+            </a>
+
+        </span>
+
+        <p class="title">
+            Creative Dashboard personale
+        </p>
+        <p class="text">
+            Una dashboard con profilo utente ed altre funzionalità sia web che mobile. Contiene la parte backend per la gestione utente in un unico applicativo.
+        </p>
+
+        <i class="fa fa-bars open-project" title="Vedi dettaglio"></i>
+
+        <div class="project-info">
+            <div class="title">
+                <i class="fa fa-tasks title-icon"></i> Tasks
+                <i class="fa fa-close project-info-close"></i>
+            </div>
+            <div class="body">
+                <p>
+                    Per questo lavoro Full-Stack, è stata effettuata l'analisi dei requisiti da backend, modellazione del database e interfaccia utente. Le tecnologie utilizzate sono:
+                </p>
+                <ul>
+                    <li>
+                        <div class="number">1</div>
+                        <div class="task-item-text">HTML5+CSS3+Angular+Cordova</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">2</div>
+                        <div class="task-item-text">Back-End: Java Spring boot </div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">3</div>
+                        <div class="task-item-text">Database: MongoDB o SQL a scelta</div>
+                        <div class="clear"></div>
+                    </li>
+                     <li>
+                        <div class="number">4</div>
+                        <div class="task-item-text"><a href="https://github.com/amanganiello90/java-angular-web-app" target="_blank">GitHub</a> è il repository</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>
+
+            <li class="project-item">
+    <div class="item hvr-bubble-float-top">
+
+        <span class="lightgallery">
+            <a href="dist/images/projects/easyEdu-0.png" class="cover">
+                <img src="dist/images/projects/easyEdu-0.png" alt="EasyEdu - Home">
+            </a>
+        </span>
+
+        <p class="title">
+            EasyEdu - Gestionale formazione
+        </p>
+        <p class="text">
+            Progetto implementato con funzionalità desktop windows, per un istituto di formazione e docenza. Utilizza la piattaforma .NET.
+        </p>
+
+        <i class="fa fa-bars open-project" title="Vedi dettaglio"></i>
+
+        <div class="project-info">
+            <div class="title">
+                <i class="fa fa-tasks title-icon"></i> Tasks
+                <i class="fa fa-close project-info-close"></i>
+            </div>
+            <div class="body">
+                <p>
+                     Applicazione che utilizza la piattaforma .NET con varie integrazioni cloud per gestire file e workflow della contabilità per i dipendenti e i corsisti.
+                </p>
+                <ul>
+                    <li>
+                        <div class="number">1</div>
+                        <div class="task-item-text">.NET WinForm</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">2</div>
+                        <div class="task-item-text">Microsoft SQL Server</div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <div class="number">3</div>
+                        <div class="task-item-text">Google Drive</div>
+                        <div class="clear"></div>
+                    </li>
+                     <li>
+                        <div class="number">4</div>
+                        <div class="task-item-text">Microsoft Azure</div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</li>
+
+
+        </ul>
+    </div>
+</section>
+
+    <hr class="hr-contact" id="contact">
+
+<section class="section-model-4">
+
+    <header>
+        <h2>Contatti</h2>
+        <h3>Cellulare: +39 3382387099</h3>
+    </header>
+
+</section>
+
+
+</main>
+
+        <footer class="footer-main">
+
+    <div class="social-medias">
+
+        <a href="https://github.com/amanganiello90" target="_blank"><i class="fa fa-github-square hvr-bob"></i></a>
+        <a href="https://www.facebook.com/angelo.manganiello.16" target="_blank"><i class="fa fa-facebook-square hvr-bob"></i></a>
+        <a href="https://twitter.com/amanganiello90" target="_blank"><i class="fa fa-twitter-square hvr-bob"></i></a>
+        <a href="https://www.linkedin.com/in/angelomanganiello" target="_blank"><i class="fa fa-linkedin-square hvr-bob"></i></a>
+        
+    </div>
+
+    <div class="text-final">
+        <a href="mailto:angelo.mang@libero.it" target="_top">angelo.mang@libero.it</a>
+    </div>
+
+</footer>
+
+	    <script src="dist/scripts/scripts.js"></script>
+
+	</body>
+
 </html>
