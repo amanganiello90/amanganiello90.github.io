@@ -11,12 +11,10 @@
 
 <!-- Facebook and Twitter meta-tags -->
 <meta property="og:title" content="Angelo Manganiello - Full-Stack developer, UI/UX designer"/>
-<meta property="og:image" content="dist/images/angelo-media.jpg"/>
 <meta property="og:url" content="/"/>
 <meta property="og:site_name" content="Angelo Manganiello - Full-Stack developer, UI/UX designer"/>
 <meta property="og:description" content="Hello, I am Angelo Manganiello, I like the idea of creating a huge back-end and intuitive interfaces for users and that is reason I became a Full-Stack developer."/>
 
 <meta name="twitter:title" content="Angelo Manganiello - Full-Stack developer, UI/UX designer" />
-<meta name="twitter:image" content="https://twitter.com/amanganiello90/photo" />
 <meta name="twitter:url" content="/" />
 <meta name="twitter:card" content="Hello, I am Angelo Manganiello, I like the idea of creating a huge back-end and intuitive interfaces for users and that is reason I became a Full-Stack developer." />
