@@ -255,48 +255,9 @@
     width: 90%;
     height: auto;
     margin: 0 auto;
-    @include centerBox();
-
-    .angelo-main-photo {
-      width: 40vw;
-      height: 40vw;
-      @include border-radius(50%);
-      background: rgba(255, 255, 255, 0.2);
-      position: relative;
-      left: 50%;
-      margin-left: -20vw;
-      margin-bottom: 20px;
-
-      @include mobile-landscape {
-        display: none;
-      }
-
-      @include tablet-landscape {
-        width: 30vh;
-        height: 30vh;
-        margin-left: -15vh;
-        margin-bottom: 20px;
-        display: block;
-      }
-
-      @include breakpoint($desktop) {
-        width: 30vh;
-        height: 30vh;
-        margin-left: -15vh;
-        margin-bottom: 20px;
-        display: block;
-      }
-
-      img {
-        width: 94%;
-        @include border-radius(50%);
-        position: relative;
-        @include centerBox();
-      }
-
-    }
 
     .text-main {
+      padding-top: 100px;
       text-align: center;
       height: auto;
       font-family: $ubuntu-font;
